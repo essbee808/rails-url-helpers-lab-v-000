@@ -4,6 +4,7 @@ class Student < ActiveRecord::Base
   end
 
   def activate_student
+    if self.activate == "false"
     self.activate == "true"
   end
 end
