@@ -4,9 +4,9 @@ class Student < ActiveRecord::Base
   end
 
   def activate_student
-    if self.activate == "false"
-      self.activate == "true"
+    if self.active == "false"
+      self.active == "true"
     else
-      self.activate == "false"
+      self.active == "false"
   end
 end
