@@ -1,6 +1,7 @@
 <% if @student.active == "false" %>
   <% @student.active = "true" %>
   <% @student.save %>
+  <div></div>
 <% else %>
   <% @student.active = "false" %>
   <% @student.save %>
