@@ -10,6 +10,7 @@ class StudentsController < ApplicationController
 
   def activate
     @student = set_student
+    @student.
   end
 
   private
