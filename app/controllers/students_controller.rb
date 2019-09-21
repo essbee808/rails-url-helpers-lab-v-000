@@ -10,6 +10,7 @@ class StudentsController < ApplicationController
 
   def activate
     set_student
+    if set_student.active == false
     set_student.active = true
   end
 
