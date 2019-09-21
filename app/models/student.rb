@@ -7,6 +7,6 @@ class Student < ActiveRecord::Base
     if self.active == "false"
       self.active = "true"
     else
-      self.active == "false"
+      self.active = "false"
   end
 end
