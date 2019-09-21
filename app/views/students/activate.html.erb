@@ -5,4 +5,5 @@
 <% else %>
   <% @student.active = "false" %>
   <% @student.save %>
+  <div><%= link_to @student, student_path(@student)%></div>
 <% end %>
