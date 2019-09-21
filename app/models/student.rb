@@ -4,5 +4,6 @@ class Student < ActiveRecord::Base
   end
 
   def activate_student
+    self.
   end
 end
