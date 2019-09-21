@@ -6,5 +6,5 @@
   <% @student.active = "false" %>
   <% @student.save %>
 <% end %>
-<% redirect_to @student %>
+<% redirect_to student_path(@student) %>
 </div>
