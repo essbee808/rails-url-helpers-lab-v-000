@@ -8,7 +8,7 @@ class StudentsController < ApplicationController
   def show
   end
 
-  def activate_student
+  def activate_student(student)
     @student = Student.find(params[:id])
 
   end
