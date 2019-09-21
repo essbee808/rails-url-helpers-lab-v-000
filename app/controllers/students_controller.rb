@@ -15,7 +15,7 @@ class StudentsController < ApplicationController
     else
       @student.active = "false"
     end
-\
+
   end
 
   private
