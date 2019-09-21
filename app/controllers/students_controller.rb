@@ -13,6 +13,7 @@ class StudentsController < ApplicationController
     if @student.active == "false"
       @student.active = "true"
     else
+      @student.active = "false"
     end
 
   end
