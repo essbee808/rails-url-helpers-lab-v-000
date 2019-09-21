@@ -3,10 +3,10 @@ class Student < ActiveRecord::Base
     self.first_name + " " + self.last_name
   end
 
-  # def activate_student
-  #   if self.activate == "false"
-  #     self.activate == "true"
-  #   else
-  #     self.activate == "false"
-  # end
+  def activate_student
+    if self.activate == "false"
+      self.activate == "true"
+    else
+      self.activate == "false"
+  end
 end
