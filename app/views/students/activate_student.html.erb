@@ -3,7 +3,7 @@
   <% @student.active = "true" %>
   <% @student.save %>
 <% else %>
-  <% @student.active = "false" %>
+  <% @student.active == "false" %>
   <% @student.save %>
 <% end %>
 <!-- <% redirect_to student_path(@student) %> -->
