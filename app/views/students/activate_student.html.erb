@@ -1,9 +1,10 @@
-<% if @student.active == "false" %>
+<div>
+  <% if @student.active == "false" %>
   <% @student.active = "true" %>
   <% @student.save %>
-  <% redirect_to @student %>
 <% else %>
   <% @student.active = "false" %>
   <% @student.save %>
-  <% redirect_to @student %>
 <% end %>
+<% redirect_to @student %>
+</div>
