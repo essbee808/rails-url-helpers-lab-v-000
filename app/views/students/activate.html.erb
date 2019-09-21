@@ -1,7 +1,7 @@
 <% if @student.active == "false" %>
   <% @student.active = "true" %>
   <% @student.save %>
-  <div><%= link_to @studen, activate_student_path(@student)</div>
+  <div><%= link_to @studen, student_path(@student)</div>
 <% else %>
   <% @student.active = "false" %>
   <% @student.save %>
